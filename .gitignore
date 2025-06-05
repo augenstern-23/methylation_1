@@ -1,0 +1,15 @@
+# temporäre Dateien
+*~
+.Rhistory
+.Rproj.user/
+.DS_Store
+
+# Daten & Ergebnisse (nicht in Git!)
+data/
+results/
+logs/
+*.pdf
+*.tsv
+*.csv
+*.rds
+
