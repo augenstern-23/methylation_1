@@ -18,7 +18,7 @@ This project uses modular R scripts and a Conda environment to perform key analy
 1. **Install Conda** (Miniconda or Anaconda)
 2. **Create environment:**
    ```bash
-   conda env create -f env_methylation.yml
+   mamba env create -f env_methylation.yml -n env_methylation
    conda activate methylation
    ```
 
