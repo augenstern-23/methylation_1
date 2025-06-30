@@ -21,6 +21,7 @@ dependencies:
   - r-devtools
   - r-optparse
   - r-rcpp
+  - r-matrixstats
 
   # Visualisierung
   - r-rcolorbrewer

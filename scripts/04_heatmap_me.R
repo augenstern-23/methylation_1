@@ -17,5 +17,11 @@ sample_name_map <- c(
 meth_mat <- rename_sample_columns(meth_mat, sample_name_map)
 
 # Speichern 
-plot_file <- "results/plots/me_methylation_heatmap.pdf"
-plot_methylation_heatmap(meth_mat, filename = plot_file)
+#plot_file <- "results/plots/me_methylation_heatmap.pdf"
+#plot_methylation_heatmap(meth_mat, filename = plot_file)
+
+# PDF mit Titel
+plot_methylation_heatmap(meth_mat, filename = "results/plots/heatmap_me.pdf", plot_title = "CpGs in MEs")
+
+# PNG mit Titel
+plot_methylation_heatmap(meth_mat, filename = "results/plots/heatmap_me.png", plot_title = "CpGs in MEs")
